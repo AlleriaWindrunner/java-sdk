@@ -195,7 +195,7 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
 
-            artifactId "fisco-bcos-" + project.name
+            artifactId project.name
             groupId project.group
             version project.version
 
